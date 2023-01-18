@@ -10,8 +10,11 @@ btnGenerate.addEventListener("click", () => {
 
 copyIc.addEventListener("click", () => {
     copyPswd();
-    toastD.classList.remove("active");
-    setTimeout(() => { toastD.classList.add("active") }, 1500);
+    if (psdGenerated.value) {
+        toastD.classList.remove("active");
+        setTimeout(() => { toastD.classList.add("active") }, 1500);
+    }
+
 })
 
 function createPswd() {
