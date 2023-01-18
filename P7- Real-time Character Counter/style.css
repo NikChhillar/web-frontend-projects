@@ -27,7 +27,7 @@ body{
     padding: 10px;
     box-sizing: border-box;
     border: solid 2px rgb(99, 222, 181);
-    border-radius: 12px;
+    border-radius: 13px;
 }
 
 .counter-container{

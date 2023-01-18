@@ -8,6 +8,5 @@ textareaE.addEventListener("keyup", () => {
 updateCount();
 function updateCount() {
     totalC.innerText = textareaE.value.length;
-
     remainingC.innerText = textareaE.getAttribute("maxLength") - textareaE.value.length;
 }
