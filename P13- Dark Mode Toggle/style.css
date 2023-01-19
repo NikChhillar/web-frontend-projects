@@ -33,11 +33,12 @@ body{
 }
 
 .input:checked + .label{
-    background-color: rgb(127, 72, 72);
+    background-color: whitesmoke;
 }
 
 .input:checked + .label .circle{
     animation: toggleOn .2s linear forwards;
+    background-color: black;
 }
 
 @keyframes toggleOn{
