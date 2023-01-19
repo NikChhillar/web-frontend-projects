@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: cursive;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clr-con{
+    background-color: aqua;
+    width: 300px;
+    height: 150px;
+    color: aliceblue;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .7);
+    border-radius: 12px;
+    border: solid black 2px;
+}
