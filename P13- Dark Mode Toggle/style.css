@@ -33,7 +33,7 @@ body{
 }
 
 .input:checked + .label{
-    background-color: black;
+    background-color: rgb(127, 72, 72);
 }
 
 .input:checked + .label .circle{
