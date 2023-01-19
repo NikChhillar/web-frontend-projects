@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(100, 159, 159);
+}
+
+.con{
+    max-width: 550px;
+    padding: 16px;
+}
+
+.con h2{
+    color: antiquewhite;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.con p{
+    margin: 15px 0;
+    color: antiquewhite;
+}
+
+.con img{
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, .5);
+}
+
+.btn{
+    background-color: antiquewhite;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.6em;
+    color:rgb(100, 159, 159) ;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: burlywood;
+}
+
+.trailer-con{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:  rgb(100, 159, 159);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.active.trailer-con{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.trailer-con video{
+    position: relative;
+    max-width: 900px;
+    outline: none;
+    border-radius: 12px;
+}
+
+@media (max-width:991px){
+    .trailer-con video 
+    {
+         max-width : 90%;
+    }
+}
+
+.close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: antiquewhite;
+    cursor: pointer;
+}
