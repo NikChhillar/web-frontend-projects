@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color: lightgray;
+}
+
+p{
+    margin: 1.25rem;
+    color: gray;
+
+}
+
+.sec-center{
+    width: 90vw;
+    margin: 50px auto 0;
+    max-width: 620px;
+}
+
+.que{
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.q-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.q-title p{
+    font-weight: bolder;
+    color: brown;
+}
+
+.que-btn{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-color: transparent;
+    color: brown;
+    cursor: pointer;
+}
+.q-text{
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid grey;
+    display: none;
+}
+.minus-icon{
+    display: none;
+}
+
+.show-text .q-text{
+    display: block;
+}
+
+.show-text .minus-icon{
+    display: inline;
+}
+
+.show-text .plus-icon{
+    display: none;
+}
