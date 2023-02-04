@@ -5,9 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LightBox...!!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="index.html"></script>
+    <div class="wrapper">
+      <div class="gallery">
+        <div class="image">
+          <span><img src="./images/i.jpg" alt="image" /></span>
+        </div>
+        <div class="image">
+          <span><img src="./images/i1.jpg" alt="image" /></span>
+        </div>
+        <div class="image">
+          <span><img src="./images/i3.jpg" alt="image" /></span>
+        </div>
+        <div class="image">
+          <span><img src="./images/luffy.png" alt="image" /></span>
+        </div>
+        <div class="image">
+          <span><img src="./images/p1.png" alt="image" /></span>
+        </div>
+        <div class="image">
+          <span><img src="./images/p2.png" alt="image" /></span>
+        </div>
+        <div class="image">
+          <span><img src="./images/p3.png" alt="image" /></span>
+        </div>
+        <div class="image">
+          <span><img src="./images/p5.png" alt="image" /></span>
+        </div>
+        <div class="image">
+          <span><img src="./images/p4.png" alt="image" /></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview">
+      <div class="details">
+        <span class="title"
+          >Image
+          <p class="currentI"></p>
+          of
+          <p class="totalI"></p>
+        </span>
+        <span class="icon fas fa-times"> </span>
+      </div>
+      <div class="imgBox">
+        <div class="slide prev">
+          <i class="fas fa-angle-left"></i>
+        </div>
+        <div class="slide next">
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <img src="" alt="image" />
+      </div>
+    </div>
+    <div class="shadow"></div>
+    <script src="index.js"></script>
   </body>
 </html>
